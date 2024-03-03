@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var activated = false;
 
   activateButton.addEventListener('click', function() {
-    var correctCode = "6482$$2846";
+    var correctCode = "2024AvP";
     var enteredCode = prompt("Enter activation code:");
 
     if (enteredCode === correctCode) {
