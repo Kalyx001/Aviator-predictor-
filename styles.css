@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: px;
+    padding: 5px;
+}
+
+nav ul li a {
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+section h2{
+    text-align: center;
+    font-weight: lighter;
+    line-height: 37px;
+    
+}
+img{
+    width 10px;
+    text-align: center;
+}
+span{
+    font-size: 30px;
+    color: orange;
+}
+.background-photo {
+    background-image: url('pcs/awiator-1win.png'); /* Add the path to your photo */
+    background-size: 100% ; /* Set width to 100% and height auto */
+    background-position: center;
+    color: #fff;
+}
+
+
+.service {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 12px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background: transparent;
+    justify-content: center;
+    min-height: 50px;
+    margin-top: 18px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+form{
+    border: 1px solid green;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px white;
+    padding: 20px;
+}
+input, select{
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+textarea{
+    background: transparent;
+    width 100%
+}
+p{
+    line-height: 40px;
+    padding: 25px;
+    text-align: center;
+}
