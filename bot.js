@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var usedCodes = {}; // Object to store used activation codes and their timestamps
 
   activateButton.addEventListener('click', function() {
-    var allowedCodes = ["rty", "ssp", "tycoon", "sss"]; // List of allowed activation codes
+    var allowedCodes = ["rty", "ssp", "tycoon", "spl4"]; // List of allowed activation codes
 
     var enteredCode = prompt("Enter activation code:");
 
